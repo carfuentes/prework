@@ -1,21 +1,51 @@
 body {
   background-color: rgb(244, 248, 249);
   font-family:"Helvetica";
+  font-size: 25px;
 }
 
 .tweet {
+  width:1000px;
+  height:312px;
   background-color: rgb(255, 255, 255);
   border:2px solid rgb(225, 232, 237);
-  border-radius: 5px;
+  border-radius: 12px;
   margin:10px;
-  clear: both;
+}
+
+.first-row {
+  margin-top:50px;
+}
+
+.gray-text {
+  color: rgb(105, 120, 130);
+  font-weight: bold;
+}
+
+.left-elements {
+  margin-left:50px;
+  margin-bottom:30px;
+
+
+}
+
+.user-header {
+  float:left;
+
+}
+
+.profile-picture {
+  float: left;
 }
 
 .user-info {
-  float:left;
+  margin-left: 13px;
+  float: right;
 }
 .username {
   font-weight: bold;
+  font-size: 32px;
+  text-align: center;
 }
 
 .follow {
@@ -25,7 +55,24 @@ body {
 .button-follow {
   background-color: rgb(255, 255, 255);
   border: 2px solid  rgb(85, 172, 238);
+  border-radius: 7px;
   color: rgb(85, 172, 238);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 32px;
+  text-align: center;
+  padding:10px 20px 10px 20px;
+  margin-right: 50px;
+}
+
+.second-row {
+  clear:both;
+  margin-bottom: 10px;
+}
+
+.separate-lines{
+  margin-bottom: 10px;
+}
+td {
+  padding-right: 20px;
+
 }
