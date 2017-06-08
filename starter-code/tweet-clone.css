@@ -4,6 +4,11 @@ body {
   font-size: 25px;
 }
 
+a {
+  color:inherit;
+  text-decoration: none;
+}
+
 .tweet {
   width:1000px;
   height:312px;
@@ -47,7 +52,10 @@ body {
   font-size: 32px;
   text-align: center;
 }
-
+.profile:hover {
+  color:rgb(85, 172, 238);
+  text-decoration: underline;
+}
 .follow {
   float:right;
 }
@@ -64,6 +72,11 @@ body {
   margin-right: 50px;
 }
 
+.button-follow:hover {
+  background-color: rgb(85, 172, 238);
+  color:rgb(255, 255, 255);
+}
+
 .second-row {
   clear:both;
   margin-bottom: 10px;
@@ -75,4 +88,11 @@ body {
 td {
   padding-right: 20px;
 
+}
+
+.retweet:hover {
+  color:#62f442;
+}
+.favorite:hover{
+  color:red;
 }
